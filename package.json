@@ -1,0 +1,19 @@
+{
+  "name": "cities-node-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:amsterdan-vasconcelos/cities-node-api.git",
+  "author": "Amsterdan Vasconcelos <amsterdan.contato@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "express": "4.21.1"
+  },
+  "devDependencies": {
+    "typescript": "5.6.3",
+    "tsx": "4.19.2",
+    "@types/express": "5.0.0"
+  }
+}
