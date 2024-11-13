@@ -6,7 +6,8 @@
   "author": "Amsterdan Vasconcelos <amsterdan.contato@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "tsx watch src/index.ts"
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "dotenv": "16.4.5",
