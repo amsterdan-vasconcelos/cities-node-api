@@ -6,10 +6,12 @@
   "author": "Amsterdan Vasconcelos <amsterdan.contato@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "tsx src/index.ts"
+    "dev": "tsx watch src/index.ts"
   },
   "dependencies": {
-    "express": "4.21.1"
+    "dotenv": "16.4.5",
+    "express": "4.21.1",
+    "http-status-codes": "2.3.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.14.0",
