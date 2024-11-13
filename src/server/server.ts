@@ -1,9 +1,8 @@
 import express from 'express';
+import { router } from './routes';
 
 const server = express();
 
-server.get('/', (req, res) => {
-  res.json({ success: true });
-});
+server.use(router);
 
 export { server };
