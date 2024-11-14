@@ -1,8 +1,12 @@
+import './shared/services/translationsYup';
 import express from 'express';
-import { router } from './routes';
+import { home, cities } from './routes';
 
 const server = express();
 
-server.use(router);
+server.use(express.json());
+
+server.use(home.router);
+server.use(cities.router);
 
 export { server };
