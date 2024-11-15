@@ -9,4 +9,12 @@ router.post(
   citiesController.create,
 );
 
+router.get('/cities', citiesController.getAllValidate, citiesController.getAll);
+
+router.get(
+  '/cities/:id',
+  citiesController.getByIdValidate,
+  citiesController.getById,
+);
+
 export { router };
