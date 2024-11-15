@@ -17,4 +17,10 @@ router.get(
   citiesController.getById,
 );
 
+router.put(
+  '/cities/:id',
+  citiesController.updateByIdValidate,
+  citiesController.updateById,
+);
+
 export { router };
